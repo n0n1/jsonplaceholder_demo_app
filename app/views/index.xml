@@ -1,0 +1,20 @@
+<Alloy>
+	<Window class="container">
+		<ListView id="photos">
+			<Templates>
+				<ItemTemplate name="photoItem">
+					<View layout="vertical">
+						<Label bindId="itemTitle" color="#000"> </Label>
+						<ImageView bindId="photoItem"></ImageView>	
+					</View>
+				</ItemTemplate>
+			</Templates>
+			<ListSection>
+				
+			</ListSection>
+			<ListSection>
+				<ListItem>one</ListItem>
+			</ListSection>
+		</ListView>
+	</Window>
+</Alloy>
